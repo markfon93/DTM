@@ -20,7 +20,7 @@ include ('includes/header.php');
 ​		<p>
 			-Melonited Steel Hardware Posts and Screws
 ​		<p>
-			-and Nylon-reinforced Injection Molded loops and hook mounts.
+			-Nylon-reinforced Injection Molded loops and hook mounts.
 	</div>
 ​	<p>
 		&emsp; Our products are designed to be durable. Using the minimum of holes

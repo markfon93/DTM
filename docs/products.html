@@ -1,9 +1,124 @@
-<?php 
-$pageTitle = 'Products';
-include ('includes/header.php');
-?>
+<html>
+<head>
+	<title>Dynamic Threat Management : <?= $pageTitle ?> </title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+		<div id="masthead">
+			<img src="/images/logo-horiz.png">		
+			<h1>Low Profile & Concealment Systems</h1>
+			<div class="menubar" id = "headerbar">
+				
+					<li><a href="/">Home</a></li>
+					<li><a href="about.php">About Us</a></li>
+					<li><a href="contact.php">Contact Us</a></li>
+					<li><a href="products.php">Products</a></li>
+					<li><a href="form.php">Form</a></li>
+			</div>
+		</div>
+	
+</head>
 
-
-
-
-<?php include ('includes/footer.php'); ?>
+<body background="images/background.svg";>
+	<div class="product-list">
+	<table class="product-table">
+		<tr>
+			<td>
+				<li>
+					<div>
+						<a href="products/cvlr-order.php"><img src="/images/CVLR.jpg"></a>
+						<div class="product-title">
+							CVLR System
+						</div>
+						<div class="product-description">
+							Low Profile and Concealment <br> 
+							Load Bearing System $190-$210
+						</div>
+					</div>
+				</li>
+			</td>
+			<td>
+			<li>
+				<div>
+					<a href="products/holsters-order.php"><img src="/images/holsters.jpg"></a>
+					<div class="product-title">
+						Holsters
+					</div>
+					<div class="product-description">
+						OWB & IWB Low Profile <br> 
+						​Holsters $55-65
+					</div>
+				</div>
+			</li>
+			</td>
+			<td>
+			<li>
+				<div>
+					<a href="products/pouches-order.php"><img src="/images/pouches.jpg"></a>
+					<div class="product-title">
+						Pouches
+					</div>
+					<div class="product-description">
+						Stand Alone Pouches, Belt System <br> 
+						Compatible, OR MOLLE Mount.  $30-$35
+					</div>
+				</div>
+			</li>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<li>
+				<div>
+					<a href="products/airsoft-order.php"><img src="/images/airsoft.jpg"></a>
+					<div class="product-title">
+						Range, Hobby <br> & Airsoft
+					</div>
+					<div class="product-description">
+						Coming soon
+					</div>
+				</div>
+			</li>		
+			</td>
+			<td>
+			<li>
+				<div>
+					<a href="products/sets-order.php"><img src="/images/sets.jpg"></a>
+					<div class="product-title">
+						Holster/Mag Carrier Sets 
+					</div>
+					<div class="product-description">
+						Holster and Magazine Carrier Set $70-80
+					</div>
+				</div>
+			</li>	
+			</td>	
+			<td>	
+			<li>
+				<div>
+					<a href="products/patches-order.php"><img src="/images/patches.jpg"></a>
+					<div class="product-title">
+						Patches
+					</div>
+					<div class="product-description">
+						Low Profile and Concealment <br> 
+						Load Bearing System $190-$210
+					</div>
+				</div>
+			</li>		
+			</td>
+		</tr>
+</div>	
+</body>
+<footer>
+	<div class="menubar" id="footerbar">
+				<li><a href="/">Home</a></li>
+				<li><a href="about.php">About Us</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
+				<li><a href="products.php">Products</a></li>
+				<li><a href="form.php">Form</a></li>
+	</div> 
+	<div id="copyright">
+	Copyright © Dynamic Threat Management. All Right Reserved.
+	</div>
+</footer>
+</html>

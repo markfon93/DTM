@@ -1,6 +1,4 @@
-body {
-	background-color: #838383;
-}
+
 #masthead {
   border-bottom: 1px solid orange;
   padding-bottom: 5px;
@@ -28,11 +26,9 @@ html {
 	font-family: arial;
 	float: left;
 	width: 50%;
-	background-color: white;
 	height: 100%;
 }
 .body-images {
-	background-color: white;
 	height: 100%;
 	width: 50%;	
 	float: right;
@@ -48,27 +44,22 @@ html {
 
 .menubar {
     opacity: 0.5;  
-}
-
-.menubar ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: white;
+	position: absolute;
 }
 
 .menubar li {
 	float: left;
 	border: black solid 1px;
+	width: 100px;
 }
 
 .menubar a {
 	display: block;
-	padding: 16px;
 }
 
 .menubar li a {
+	
 	background-color: white;
 	color: black;
 	text-align: center;
@@ -78,24 +69,26 @@ html {
 }
 
 .menubar li a:hover {
-	background-color: #797979;
+	background-color: #DFDFDF;
 	
 }
 #headerbar {
-	position: fixed;
+	
 	right: 1;
 	top: 1px;
 	border: black solid 1px;
 }
-
+#headerbar a {
+	padding: 2px;	
+}
 #footerbar {
 	float: right;
 	bottom: 16;
-	position: fixed;
+	
 }
 
+
 #footerbar ul {
-	height: 25px;
 }
 
 #footerbar a {
@@ -107,7 +100,7 @@ html {
 }
 
 #copyright {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 }
 
@@ -118,4 +111,28 @@ html {
 	background-color: white;
 	box-shadow: 2px 2px 2px 2px;
 
+}
+.product-list {
+	font-family: courier;
+	margin-bottom: 100px;
+	
+}
+.product-table {
+	list-style-type: none;
+	center: 0;
+}
+
+.product-title {
+	
+	font-weight: bold;
+	font-size: 30;
+}
+
+table, tr, td	{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.form {
+	height: 1100px;
 }

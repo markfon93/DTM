@@ -11,7 +11,7 @@ include ('includes/header.php');
 	E-mail:<br>
 		<input type="text" name="mail"><br>
 	Message:<br>
-		<textarea type="text" name="comment" rows="25" cols="100"></textarea><br><br>
+		<textarea type="text" name="message" rows="25" cols="100"></textarea><br><br>
 		<input type="submit" value="Send">
 		<input type="reset" value="Reset">
 </form>

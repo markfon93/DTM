@@ -21,21 +21,17 @@
 <h2 align="center" > Send us an email and we'll get right back to you. </h2>
 
 <div>
-	<form method="POST" action="sent.php" class="contact-form" name="contact-form">
-		<label>Name:</label><br>
-			<input id="name" name="nameInput" type="text">
-			<br>
-		<label>Email:</label><br>
-			<input id="email" name="emailInput" type="email">
-			<br>
-		<label>Subject:</label><br>	
-			<input id="subject" name="subjectInput" type="text">
-			<br>
-		<label>Message:</label><br>	
-			<input id="message" name="messageInput" type="text">
-			<br><br>
-		<input value="Send" type="submit">
-	</form>
+	<form action="mailto:pacificdevteam@gmail.com" method="post" enctype="text/plain">
+	Name:<br>
+		<input type="text" name="name"><br>
+	E-mail:<br>
+		<input type="text" name="mail"><br>
+	Message:<br>
+		<textarea type="text" name="comment" rows="25" cols="100"></textarea><br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+</form>
+
 </div>
 
 	

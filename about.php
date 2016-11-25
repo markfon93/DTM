@@ -41,7 +41,7 @@ include ('includes/header.php');
 		<img id="image-block" src="/images/image3.jpg">
 		<br>
 		<br>
-		<img id="image-block" src="/images/logo-patch.jpg">
+		<img id="image-block" src="/images/logo-patch.png">
 	</div>
 </div>
 <?php include ('includes/footer.php'); ?>

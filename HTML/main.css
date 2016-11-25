@@ -1,0 +1,123 @@
+body {
+
+}
+
+#masthead {
+  border-bottom: 1px solid orange;
+  padding-bottom: 5px;
+  
+}
+
+h1 {
+	font-size:30px;
+	font-family: fantasy;
+	margin: auto;
+	width:100%;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: fantasy;	
+}
+html {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.body-text {
+	font-family: arial;
+	float: left;
+	width: 50%;
+	background-color: white;
+	height: 100%;
+}
+.body-images {
+	background-color: white;
+	height: 100%;
+	width: 50%;	
+	float: right;
+}
+
+#image-block {
+	width: 100%;
+	height: auto;
+}
+
+.details-text {
+	font-weight: bold;
+}
+
+.menubar {
+    opacity: 0.5;  
+}
+
+.menubar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+.menubar li {
+	float: left;
+	border: black solid 1px;
+}
+
+.menubar a {
+	display: block;
+	padding: 16px;
+}
+
+.menubar li a {
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menubar li a:hover {
+	background-color: #797979;
+	
+}
+#headerbar {
+	position: fixed;
+	right: 1;
+	top: 1px;
+	border: black solid 1px;
+}
+
+#footerbar {
+	float: right;
+	bottom: 16;
+	position: fixed;
+}
+
+#footerbar ul {
+	height: 25px;
+}
+
+#footerbar a {
+	padding: 2px;
+}
+
+#footerbar li {
+	border: black solid 1px;
+}
+
+#copyright {
+	position: fixed;
+	bottom: 0;
+}
+
+.contact-form {
+	position: absolute;
+	right: 10px;
+	width: 300px;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px;
+
+}

@@ -37,7 +37,7 @@ include ('includes/header.php');
 	&emsp; We offer individual custom holsters and products made to you specifications,
 	or your may select from our pre-designed models.
 </div>
-	<div class="body-images">
+	<div align="center" class="body-images">
 		<img id="image-block" src="/images/image3.jpg">
 		<br>
 		<br>

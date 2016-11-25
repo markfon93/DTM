@@ -78,7 +78,7 @@ include ('includes/header.php');
 			<td>	
 			<li>
 				<div>
-					<a href="products/patches-order.php"><img src="/images/patches.jpg"></a>
+					<a href="products/patches-order.php"><img src="/images/patches.png"></a>
 					<div class="product-title">
 						Patches
 					</div>

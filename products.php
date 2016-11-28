@@ -92,6 +92,4 @@ include ('includes/header.php');
 		</tr>
 </div>
 
-
-
 <?php include ('includes/footer.php'); ?>

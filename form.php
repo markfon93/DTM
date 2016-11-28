@@ -9,5 +9,4 @@ include ('includes/header.php');
 	width="760" height="1000" frameborder="0" marginheight="-50" marginwidth="0">Loading...</iframe>
 </div>
 
-
 <?php include ('includes/footer.php'); ?>

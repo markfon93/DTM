@@ -2,7 +2,6 @@
 #masthead {
   border-bottom: 1px solid orange;
   padding-bottom: 5px;
-  
 }
 
 h1 {
@@ -46,6 +45,7 @@ html {
     opacity: 0.5;  
 	list-style-type: none;
 	position: absolute;
+	
 }
 
 .menubar li {
@@ -56,14 +56,13 @@ html {
 
 .menubar a {
 	display: block;
+	padding: 2px;
 }
 
 .menubar li a {
-	
 	background-color: white;
 	color: black;
 	text-align: center;
-	padding:14px 16px;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -73,23 +72,13 @@ html {
 	
 }
 #headerbar {
-	right: 1;
+	right: 1px;
 	top: 1px;
-	border: black solid 1px;
 }
-#headerbar a {
-	padding: 2px;	
-}
-#footerbar {
-	float: right;
+
+#footerbar {	
+	margin-bottom: 24px;
 	bottom: 16;
-}
-
-#footerbar ul {
-}
-
-#footerbar a {
-	padding: 2px;
 }
 
 #footerbar li {
@@ -97,18 +86,10 @@ html {
 }
 
 #copyright {
-	position: absolute;
+	margin-top: 100px;
 	bottom: 0;
 }
 
-.contact-form {
-	position: absolute;
-	right: 10px;
-	width: 300px;
-	background-color: white;
-	box-shadow: 2px 2px 2px 2px;
-
-}
 .product-list {
 	font-family: courier;
 	margin-bottom: 100px;
@@ -116,7 +97,6 @@ html {
 }
 .product-table {
 	list-style-type: none;
-	center: 0;
 }
 
 .product-title {
@@ -131,4 +111,9 @@ table, tr, td	{
 
 .form {
 	height: 1100px;
+}
+
+#contactUs {
+	font-size: 20;
+	font-weight: bold;
 }

@@ -38,9 +38,6 @@ include ('includes/header.php');
 	or your may select from our pre-designed models.
 </div>
 	<div align="center" class="body-images">
-		<img id="image-block" src="/images/image3.jpg">
-		<br>
-		<br>
 		<img id="image-block" src="/images/logo-patch.png">
 	</div>
 </div>

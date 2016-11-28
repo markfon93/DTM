@@ -90,6 +90,7 @@ include ('includes/header.php');
 			</li>		
 			</td>
 		</tr>
+	</table>
 </div>
 
 <?php include ('includes/footer.php'); ?>

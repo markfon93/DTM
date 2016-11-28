@@ -15,6 +15,4 @@
 		</div>
 	</div>
 </head>
-
 <body background="images/background.svg";>
-		
